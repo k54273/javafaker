@@ -1,0 +1,71 @@
+en-GR:
+  faker:
+    name:
+      male_first_name: ["Andreas", "Vasilis", "Nikolas", "Achilles", "Aegeus", "Ajax", "Adonis", "Alexander",
+                        "Agamemnon", "Alexis", "Anastasios", "Andreas", "Apostolis", "Aristides", "Athanasios",
+                        "Carolos", "Christos", "Christopher", "Dimos", "Dionysius", "Dimitris", "Elias", "Eleftherios",
+                        "Elpidoforos", "Eugene", "Evangelos", "Fotis", "Fay", "George", "Harabolos", "Hercules",
+                        "Ioannis", "Isidoros", "Jason", "Kostantinos", "Kyriakos", "Keiki", "Leonidas", "Marcos",
+                        "Marios", "Matthew", "Maximos", "Michael", "Mixalis", "Nektarios", "Nikos", "Nikolas",
+                        "Odysseus", "Panagiotis", "Petros", "Phillipos", "Platon", "Sarantos", "Socrates", "Sotiris",
+                        "Spartacus", "Stavros", "Stefanos", "Stergios", "Stratos", "Stylianos", "Tasos", "Thanos",
+                        "Theodore", "Theophanis", "Theophilos", "Timoleon", "Triantafylos", "Vasilios", "Vasilis",
+                        "Xenophon", "Zeus", "Zeno"]
+      female_first_name: ["Agata", "Angelena", "Nerina", "Agape", "Adonia", "Agnes", "Aleka", "Alexandra", "Alexia",
+                          "Aliki", "Amaryllis", "Ambrosia", "Anastasia", "Angeliki", "Aphrodite", "Apostolia",
+                          "Argyro", "Ariadne", "Artemis", "Athanasia", "Barbara", "Calisto", "Calliope", "Calypso",
+                          "Catherine", "Christina", "Cleopatra", "Corinna", "Danae", "Daphne", "Demetra", "Dionysia",
+                          "Dora", "Dorothea", "Efstathia", "Elina", "Eleftheria", "Elisavet", "Eugenia", "Eva",
+                          "Evangelia", "Evanthia", "Evdoxia", "Fotini", "Georgia", "Haroula", "Helen", "Ioanna",
+                          "Iphigenia", "Irene", "Kostantina", "Kyriaki", "Lydia", "Magdalen", "Maria", "Marina",
+                          "Natalie", "Natasha", "Nefeli", "Nektaria", "Nike", "Olympia", "Ophelia", "Panagiota",
+                          "Pandora", "Panorea", "Paraskevi", "Parthena", "Pelagia", "Penelope", "Phoebe", "Polyxeni",
+                          "Prokopia", "Sophia", "Stavroula", "Stefania", "Stela", "Thalia", "Theodora", "Theone",
+                          "Urania", "Vanessa", "Varvara", "Vasiliki", "Vassilia", "Zenobia", "Zoe"]
+      last_name: ["Papadopoulous", "Papadopoulou", "Papageorgiou", "Oikonomou", "Papadimitriou", "Georgiou",
+                  "Papaioannou", "Pappas", "Vasileiou", "Nikolaou", "Karagiannis", "Vlachos", "Antoniou", "Makris",
+                  "Papanikolaou", "Dimitriou", "Ioannidis", "Georgiadis", "Triantafyllou", "Papadakis", "Athanasiou",
+                  "Konstantinidis", "Ioannou", "Alexiou", "Christodoulou", "Theodorou", "Giannopoulos", "Nikolaidis",
+                  "Konstantinou", "Panagiotopoulos", "Michailidis", "Papakonstantinou", "Papathanasiou", "Antonopoulos",
+                  "Giannakopoulos", "Angelopoulos", "Dimou", "Ioannidou", "Nikolopoulos", "Mylonas", "Stergiou",
+                  "Apostolou", "Petropoulos", "Lamprou", "Papadaki", "Christou", "Panagiotou", "Anagnostou", "Makri",
+                  "Konstantinidou", "Samaras", "Raptis", "Athanasopoulos", "Alexopoulos", "Christopoulos",
+                  "Stavropoulos", "Anagnostopoulos", "Markou", "Georgiadou", "Spanos", "Sidiropoulos", "Antoniadis",
+                  "Panagopoulos", "Efthymiou", "Spyropoulos", "Theodoropoulos", "Pavlidis", "Athanasiadis",
+                  "Apostolopoulos", "Petrou", "Michalopoulos", "Arvanitis", "Lazaridis", "Kontos", "Georgopoulos",
+                  "Panagiotidis", "Theodoridis", "Chatzis", "Anastasiadis", "Papavasileiou", "Papazoglou",
+                  "Vasilopoulos", "Iliopoulos", "Kostopoulos", "Politis", "Galanis", "Stavrou", "Apostolidis",
+                  "Paraskevopoulos", "Giannopoulou", "Diamantis", "Pantazis", "Andreou"]
+      name:
+        - "#{male_first_name} #{last_name}"
+        - "#{female_first_name} #{last_name}"
+      name_with_middle:
+        - "#{male_first_name} #{last_name} #{last_name}"
+        - "#{female_first_name} #{last_name} #{last_name}"
+    address:
+      state:  ["Attica", "Central Macedonia", "Thessaly", "Western Greece", "Crete", "Eastern Macedonia and Thrace",
+               "Peloponnese", "Central Greece", "Epirus", "South Aegean", "Western Macedonia", "Ionian Islands",
+               "North Aegean"]
+      city: ["Athens", "Thessaloniki", "Patra", "Piraeus", "Larisa", "Peristeri", "Irakleion", "Kallithea", "Acharnes",
+             "Kalamaria", "Nikaia", "Glyfada", "Volos", "Ilion", "Ilioupoli", "Keratsini", "Khalandrion", "Nea Smyrni",
+             "Marousi", "Agios Dimitrios", "Zografos", "Aigaleo", "Nea Ionia", "Ioannina", "Palaio Faliro",
+             "Korydallos", "Trikala", "Vyronas", "Agia Paraskevi", "Galatsi", "Chalkida", "Petroupolis", "Serres",
+             "Rodos", "Kalamata", "Kavala", "Chania", "Katerini", "Alexandroupoli", "Lamia"]
+      street_name: ["Dionysiou Areopagitou Street", "Dragatsanou Street", "Eupolidos Street", "Ermou Street",
+                    "Evripidou Street", "Eynardou Street", "Filopimenos Street", "Herodou Attikou Street",
+                    "Hymittou Street", "Iera Odos", "Ioanninon Street", "Kapodistria Street", "Kifissias Avenue",
+                    "Kolokotroni Street", "Konstantinoupoleos Avenue", "Lada Street", "Lampsakou Street",
+                    "Larissis Street", "Lenormant Street", "Edouardou Law Street", "Lykourgou Street",
+                    "Mavrokordatou Street", "Marni Street", "Menandrou Street", "Mesogeion Avenue", "Miltiadou Street",
+                    "Mitropoleos Street", "Omirou Street", "Palamidiou Street", "Pandrossou Street",
+                    "Panepistimiou Street", "Paparrigopoulou Street", "Pelopida Street", "Peiraios Street",
+                    "Pesmazoglou Street", "Petrou Ralli Street", "Rizari Street", "Santaroza Street", "Sepolion Street",
+                    "Sofokleous Street", "Stadiou Street", "Stavrou Street", "Andrea Syngrou Avenue",
+                    "Vasilissis Sofias Avenue", "Vasileos Pavlou Avenue", "Voreou Street", "Voukourestiou Street",
+                    "Vouliagmenis Avenue", "Vyssis Street"]
+      default_country: ["Greece", "Hellenic Republic", "Hellas", "Hellada"]
+    internet:
+      free_email: ['gmail.com', 'hotmail.com', 'yahoo.com']
+      domain_suffix: ['gr', 'com.gr', 'org.gr', 'net.gr']
+    company:
+      suffix: ['Group', 'SA']
