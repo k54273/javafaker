@@ -1,0 +1,80 @@
+en-ESP:
+  faker:
+    name:
+      male_first_name: ["Hugo", "Daniel", "Pablo", "Martin", "Alejandro", "Adrian", "Alvaro", "David", "Lucas", "Mario",
+                        "Diego", "Manuel", "Leo", "Mateo", "Javier", "Izan", "Marcos", "Alex", "Sergio", "Marc",
+                        "Carlos", "Jorge", "Miguel", "Enzo", "Antonio", "Angel", "Gonzalo", "Iker", "Juan", "Eric",
+                        "Ivan", "Ruben", "Victor", "Nicolas", "Bruno", "Samuel", "Hector", "Jose", "Gabriel", "Dario",
+                        "Oliver", "Aaron", "Adam", "Dylan", "Jesus", "Marco", "Alberto", "Guillermo", "Raul", "Rodrigo",
+                        "Francisco", "Joel", "Erik", "Pedro", "Luis", "Jaime", "Rafael", "Asier", "Unai", "Mohamed",
+                        "Gael", "Thiago", "Ian", "Fernando", "Oscar", "Luca", "Andres", "Biel", "Ismael", "Alonso",
+                        "Pol", "Nil", "Jan", "Rayan", "Arnau", "Cristian", "Saul", "Isaac", "Santiago", "Julen", "Joan",
+                        "Miguel", "Aimar", "Ignacio", "Youssef", "Eduardo", "Mauro", "Enrique", "Yago", "José",
+                        "Gerard", "Abraham", "Noah", "Omar", "Ibai", "Francisco"]
+      female_first_name: ["Lucia", "Maria", "Martina", "Paula", "Daniela", "Sofia", "Valeria", "Carla", "Sara", "Alba",
+                          "Julia", "Noa", "Emma", "Claudia", "Carmen", "Marta", "Valentina", "Irene", "Adriana", "Ana",
+                          "Laura", "Elena", "Alejandra", "Ines", "Aitana", "Marina", "Vera", "Laia", "Ariadna",
+                          "Ainara", "Lola", "Leire", "Andrea", "Angela", "Vega", "Nora", "Jimena", "Blanca", "Alicia",
+                          "Clara", "Olivia", "Celia", "Alma", "Eva", "Elsa", "Leyre", "Natalia", "Victoria", "Isabel",
+                          "Cristina", "Lara", "Triana", "Nuria", "Carolina", "Aina", "Chloe", "Mia", "Mar", "Gabriela",
+                          "Mara", "Zoe", "Ona", "Naia", "Helena", "Paola", "Noelia", "Miriam", "Salma", "Naiara", "Lia",
+                          "Alexia", "Ane", "Elia", "Jana", "Arlet", "Diana", "Aya", "Silvia", "Iris", "Luna", "Yanira",
+                          "Fatima", "Erika", "Sandra", "Anna"]
+      last_name: ["Garcia", "Rodriguez", "Gonzalez", "Fernandez", "Lopez", "Martinez", "Sanchez", "Perez", "Gomez",
+                  "Martin", "Jimenez", "Ruiz", "Hernandez", "Diaz", "Moreno", "Muñoz", "Alvarez", "Romero", "Alonso",
+                  "Gutierrez", "Navarro", "Torres", "Dominguez", "Ramos", "Vazquez", "Gil", "Ramirez", "Serrano",
+                  "Blanco", "Molina", "Morales", "Suarez", "Ortega", "Delgado", "Castro", "Ortiz", "Rubio", "Marin",
+                  "Sanz", "Iglesias", "Medina", "Nuñez", "Garrido", "Castillo", "Cortes", "Lozano", "Guerrero",
+                  "Santos", "Cano", "Prieto", "Cruz", "Mendez", "Calvo", "Vidal", "Gallego", "Herrera", "Cabrera",
+                  "Flores", "Peña", "Leon", "Marquez", "Campos", "Vega", "Fuentes", "Carrasco", "Diez", "Reyes",
+                  "Caballero", "Nieto", "Pascual", "Aguilar", "Santana", "Herrero", "Ferrer", "Lorenzo", "Gimenez",
+                  "Hidalgo", "Montero", "Ibañez", "Santiago", "Mora", "Vicente", "Vargas", "Arias", "Duran", "Benitez",
+                  "Carmona", "Crespo", "Pastor", "Soto", "Soler", "Roman", "Velasco", "Saez", "Moya", "Parra",
+                  "Esteban", "Bravo", "Rojas", "Gallardo"]
+      name:
+        - "#{male_first_name} #{last_name}"
+        - "#{female_first_name} #{last_name}"
+      name_with_middle:
+        - "#{male_first_name} #{last_name} #{last_name}"
+        - "#{female_first_name} #{last_name} #{last_name}"
+    address:
+      state:  ["Andalusia", "Aragon", "Asturias", "Balearic Islands", "Basque Country", "Canary Islands", "Cantabria",
+               "Castile and León", "Castilla–La Mancha", "Catalonia", "Community of Madrid", "Extremadura", "Galicia",
+               "La Rioja", "Navarre", "Region of Murcia", "Valencian Community", "Ceuta", "Melilla"]
+      city: ["Madrid", "Barcelona", "Valencia", "Sevilla", "Zaragoza", "Malaga", "Murcia", "Palma",
+             "Las Palmas de Gran Canaria", "Bilbao", "Alicante", "Cordoba", "Valladolid", "Vigo", "Gijon",
+             "Eixample", "L'Hospitalet de Llobregat", "Latina", "Carabanchel", "A Coruna", "Puente de Vallecas",
+             "Sant Marti", "Gasteiz / Vitoria", "Granada", "Elche", "Ciudad Lineal", "Oviedo", "Santa Cruz de Tenerife",
+             "Fuencarral-El Pardo", "Badalona", "Cartagena", "Terrassa", "Jerez de la Frontera", "Sabadell", "Mostoles",
+             "Alcala de Henares", "Pamplona", "Fuenlabrada", "Almeria", "Leganes", "San Sebastian", "Sants-Montjuic",
+             "Santander", "Castello de la Plana", "Burgos", "Albacete", "Horta-Guinardo", "Alcorcon", "Getafe",
+             "Nou Barris", "Hortaleza", "San Blas-Canillejas", "Salamanca", "Tetuan de las Victorias", "Logrono",
+             "La Laguna", "City Center", "Huelva", "Arganzuela", "Badajoz", "Sarria-Sant Gervasi", "Sant Andreu",
+             "Salamanca", "Chamberi", "Usera", "Tarragona", "Chamartin", "Lleida", "Marbella", "Leon", "Villaverde",
+             "Cadiz", "Retiro", "Dos Hermanas", "Mataro", "Gracia", "Santa Coloma de Gramenet", "Torrejon de Ardoz",
+             "Jaen", "Moncloa-Aravaca", "Algeciras", "Parla", "Delicias", "Ourense", "Alcobendas", "Reus", "Moratalaz",
+             "Ciutat Vella", "Torrevieja", "Telde", "Barakaldo", "Lugo", "San Fernando", "Girona",
+             "Santiago de Compostela", "Caceres", "Lorca", "Coslada", "Talavera de la Reina",
+             "El Puerto de Santa Maria", "Cornella de Llobregat", "Las Rozas de Madrid", "Orihuela", "Aviles",
+             "El Ejido", "Guadalajara", "Roquetas de Mar", "Palencia", "Algorta", "Pozuelo de Alarcon",
+             "Sant Boi de Llobregat", "Toledo", "Les Corts", "Pontevedra", "Getxo", "Gandia", "Sant Cugat del Valles",
+             "Ceuta", "Arona", "Torrent", "Chiclana de la Frontera", "Manresa", "San Sebastian de los Reyes", "Ferrol",
+             "Velez-Malaga", "Ciudad Real", "Mijas", "Melilla", "Rubi", "Fuengirola", "Benidorm", "Alcala de Guadaira",
+             "Ponferrada", "Rivas-Vaciamadrid", "Majadahonda", "Campina", "Vicalvaro", "Zamora", "Sagunto",
+             "Vilanova i la Geltru", "Sanlucar de Barrameda", "Estepona", "Torremolinos", "Villa de Vallecas",
+             "La Linea de la Concepcion", "Molina de Segura", "Paterna", "Santa Lucia", "Viladecans",
+             "El Prat de Llobregat", "Valdemoro", "Grao de Murviedro", "Castelldefels", "Alcoy", "Linares", "Irun",
+             "Granollers", "Motril", "Santutxu", "Arrecife", "Benalmadena", "Cerdanyola del Valles",
+             "la Nova Esquerra de l'Eixample", "Avila", "Barri de Sant Andreu", "Segovia", "Merida", "Cuenca",
+             "Torrelavega", "Elda", "Collado-Villalba", "Aranjuez", "San Vicent del Raspeig", "Mollet del Valles",
+             "San Bartolome de Tirajana", "Huesca", "Puertollano", "Calvia", "Sagrada Familia", "Arganda", "Vila-real",
+             "la Vila de Gracia", "Utrera"]
+      street_name: ["Prado Boulevard", "Recoletos Boulevard", "Castellana Boulevard", "Alcala Street",
+                    "Gran Via Boulevard", "Mayor Street", "Preciados Street", "Fuencarral Street", "Arenal Street",
+                    "Huertas Street"]
+      default_country: ["Spain", "Kingdom of Spain"]
+    internet:
+      free_email: ['gmail.com', 'hotmail.com', 'yahoo.com']
+      domain_suffix: ['es', 'com.es', 'org.es', 'net.es']
+    company:
+      suffix: ['SA', 'SL', 'Group']

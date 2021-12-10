@@ -1,0 +1,42 @@
+en-LT:
+  faker:
+    name:
+      male_first_name: ["Adomas", "Alexandras", "Alfredas", "Aras", "Benediktas", "Darius", "Dominykas", "Elijas",
+                        "Emilis", "Erikas", "Filip", "Gabrielius", "Henrikas", "Ignas", "Jonas", "Jurgis",
+                        "Kristijonas", "Leonardas", "Nojus", "Simas", "Titas", "Tomas", "Vladas", "Waldemar",
+                        "Zydrunas", "Albertas", "Benas", "Danielius", "Fabius", "Galeti", "Gedeminas", "Karolis",
+                        "Kristupas", "Linas", "Lukas", "Markus", "Marijus", "Mikolas", "Nerija", "Paulius", "Petras",
+                        "Ramunas", "Ricardas", "Robertas", "Sigis", "Stanislovas", "Vilhelmas", "Vincentas"]
+      female_first_name: ["Adele", "Agne", "Aleksandra", "Audra", "Austeja", "Barbora", "Biruta", "Daina", "Egle",
+                          "Elena", "Gabriele", "Greta", "Ieva", "Judita", "Jurate", "Katre", "Laima", "Lina", "Marija",
+                          "Odeta", "Ona", "Regina", "Rita", "Roze", "Ruta", "Skaiste", "Svetlana", "Teresa", "Vaiva",
+                          "Vida", "Beata", "Daiva", "Emilija", "Gabija", "Goda", "Inesa", "Karolina", "Lidija", "Leja",
+                          "Marina", "Nijole", "Nina", "Paulina", "Renata", "Sandra", "Silvija", "Sofija", "Tamara",
+                          "Urte"]
+      last_name: ["Adomaitis", "Andris", "Backus", "Bagdonas", "Balchunas", "Balkus", "Balthis", "Banis", "Barcus",
+                  "Barkus", "Bayus", "Bernius", "Bernotas", "Bockus", "Boggus", "Bonus", "Butkus", "Danis", "Dapkus",
+                  "Dargis", "Degutis", "Derus", "Dinius", "Dobis", "Gabrys", "Gagas", "Gaida", "Galinis", "Grigas",
+                  "Gudaitis", "Janulis", "Jonaitis", "Juska", "Kairis", "Kanas", "Klukas", "Kubilus", "Lanka",
+                  "Laukaitis", "Laukaitis", "Launius", "Lutkus", "Mankus", "Markunas", "Martinkus", "Masaitis", "Matas",
+                  "Matulis", "Mazeika", "Melis", "Mickus", "Miskinis", "Mockus", "Molis", "Moris", "Norbut", "Norkus",
+                  "Pavlis", "Petkus", "Petraitis", "Petrauskas", "Petronis", "Pikus", "Pisula", "Rimkus", "Rubis",
+                  "Saltis", "Shaulis", "Shimkus", "Shukis", "Simkus", "Simonis", "Soulis", "Vidas", "Vitkus", "Waitkus",
+                  "Wirkus", "Zemaitis", "Zukas", "Zukauskas"]
+      name:
+        - "#{male_first_name} #{last_name}"
+        - "#{female_first_name} #{last_name}"
+      name_with_middle:
+        - "#{male_first_name} #{last_name} #{last_name}"
+        - "#{female_first_name} #{last_name} #{last_name}"
+    address:
+      state:  ["Aukstaitija", "Samogitia", "Dzukija", "Suvalkija", "Lithuania Minor"]
+      city: ["Vilnius", "Kaunas", "Klaipeda", "Siauliai", "Panevezys", "Alytus", "Marijampole", "Mazeikiai", "Jonava",
+             "Utena", "Kedainiai", "Taurage", "Telsiai", "Ukmerge"]
+      street_name: ["Didzioji Street", "Gaono Street", "Gediminas Avenue", "Konstitucijos Avenue", "Literatu Street",
+                    "Pilies Street", "Vokieciu Street"]
+      default_country: ["Lithuania", "Republic of Lithuania"]
+    internet:
+      free_email: ['gmail.com', 'hotmail.com', 'yahoo.com']
+      domain_suffix: ['lt', 'com.lt', 'org.lt', 'net.lt']
+    company:
+      suffix: ['UAB', 'Group']
