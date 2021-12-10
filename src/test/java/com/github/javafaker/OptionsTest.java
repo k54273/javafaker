@@ -1,5 +1,6 @@
 package com.github.javafaker;
 
+import org.hamcrest.Matcher;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -55,6 +56,46 @@ public class OptionsTest extends AbstractFakerTest {
         for (int i = 1; i < 10; i++) {
             assertThat(faker.options().nextElement(list), isIn(list));
         }
+    }
+
+    @Test
+    // check that nextNull returns the app object or null
+    public void testNextNullAppElement() {
+        App app = faker.app();
+        List<App> list = Arrays.asList(null, app);
+        assertThat(faker.options().nextNull(app), isIn(list));
+    }
+
+    @Test
+    // check that nextNull returns the commerce object or null
+    public void testNextNullCommerceElement() {
+        Commerce commerce  = faker.commerce();
+        List<Commerce> list = Arrays.asList(null, commerce);
+        assertThat(faker.options().nextNull(commerce), isIn(list));
+    }
+
+    @Test
+    // check that nextNull returns the file object or null
+    public void testNextNullFileElement() {
+        File file = faker.file();
+        List<File> list = Arrays.asList(null, file);
+        assertThat(faker.options().nextNull(file), isIn(list));
+    }
+
+    @Test
+    // check that nextNull returns the guide object or null
+    public void testNextNullGuideElement() {
+        HitchhikersGuideToTheGalaxy guide = faker.hitchhikersGuideToTheGalaxy();
+        List<HitchhikersGuideToTheGalaxy> list = Arrays.asList(null, guide);
+        assertThat(faker.options().nextNull(guide), isIn(list));
+    }
+
+    @Test
+    // check that nextNull returns the space object or null
+    public void testNextNullSpaceElement() {
+        Space space = faker.space();
+        List<Space> list = Arrays.asList(null, space);
+        assertThat(faker.options().nextNull(space), isIn(list));
     }
 
     public enum Day {

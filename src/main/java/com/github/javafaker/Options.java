@@ -3,10 +3,10 @@ package com.github.javafaker;
 import java.util.List;
 
 public class Options {
-    private final Faker faker;
+    private final Faker newFaker;
 
     protected Options(Faker faker) {
-        this.faker = faker;
+        this.newFaker = faker;
     }
 
     /**
@@ -17,7 +17,7 @@ public class Options {
      * @return A randomly selected element from the varargs.
      */
     public <E> E option(E... options) {
-        return options[faker.random().nextInt(options.length)];
+        return options[newFaker.random().nextInt(options.length)];
     }
 
     /**
@@ -28,7 +28,7 @@ public class Options {
      */
     public <E extends Enum<E>> E option(Class<E> enumeration) {
         E[] enumConstants = enumeration.getEnumConstants();
-        return enumConstants[faker.random().nextInt(enumConstants.length)];
+        return enumConstants[newFaker.random().nextInt(enumConstants.length)];
     }
 
     /**
@@ -39,7 +39,7 @@ public class Options {
      * @return A randomly selected element from the array.
      */
     public <E> E nextElement(E[] array) {
-        return array[faker.random().nextInt(array.length)];
+        return array[newFaker.random().nextInt(array.length)];
     }
 
     /**
@@ -50,6 +50,15 @@ public class Options {
      * @return A randomly selected element from the list.
      */
     public <E> E nextElement(List<E> list) {
-        return list.get(faker.random().nextInt(list.size()));
+        return list.get(newFaker.random().nextInt(list.size()));
     }
+
+    /**
+     * Returns a random null value.
+     *
+     * @param object The object being passed in.
+     * @param <E>    The type of the object.
+     * @return A randomly selected element from null and the original object.
+     */
+    public <E> E nextNull(E object) { return newFaker.options().option(null, object); }
 }
