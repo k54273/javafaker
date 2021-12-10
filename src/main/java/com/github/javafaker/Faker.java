@@ -44,6 +44,7 @@ public class Faker {
     private final Code code;
     private final Coin coin;
     private final Finance finance;
+    private final Flight flight;
     private final Food food;
     private final GameOfThrones gameOfThrones;
     private final Gender gender;
@@ -159,6 +160,7 @@ public class Faker {
         this.code = new Code(this);
         this.file = new File(this);
         this.finance = new Finance(this);
+        this.flight = new Flight(this);
         this.food = new Food(this);
         this.gameOfThrones = new GameOfThrones(this);
         this.gender = new Gender(this);
@@ -455,6 +457,10 @@ public class Faker {
 
     public Finance finance() {
         return finance;
+    }
+
+    public Flight flight() {
+        return flight;
     }
 
     public Food food() {
